@@ -10,7 +10,7 @@
 5、制作一键脚本，方便新手玩家安装。
 
 ## 一键安装
-ssh客户端种，复制粘贴下面代码进行一键安装，过程中会说要sudo权限，输入当前用户密码就行。
+ssh客户端中，复制粘贴下面代码进行一键安装，过程中会说要sudo权限，输入当前用户密码就行。
 ```shell
 cd ~ && wget https://raw.githubusercontent.com/Jerry3DP/EIS/main/eisok.sh && chmod +x eisok.sh && ./eisok.sh
 ```
