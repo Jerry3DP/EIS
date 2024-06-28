@@ -1,3 +1,23 @@
+## 说明
+本工具来源于大神MagicPhoenix，我只是修改了小毛病并且做成了一键安装脚本。
+我是业余玩家，没学过代码，有bug基本改不了，所以，如果要改bug请到原作者那边提交。
+
+修改有：
+1、针对32位和64位系统自动选择
+2、加了自动运行代码，原作者可能忘记了这一步了。
+3、中文化
+4、后台添加使用引导
+5、制作一键脚本，方便新手玩家安装。
+
+## 一键安装
+ssh客户端种，复制粘贴下面代码进行一键安装，过程中会说要sudo权限，输入当前用户密码就行。
+```shell
+cd ~ && wget https://raw.githubusercontent.com/Jerry3DP/EIS/main/eisok.sh && chmod +x eisok.sh && ./eisok.sh
+```
+
+
+## 以下是原作者的说明，我保留完整内容。
+
 ## Easy Input Shaper UI
 
 It provide a web-ui for running `SHAPER_CALIBRATE` and generate charts.
