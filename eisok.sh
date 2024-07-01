@@ -15,7 +15,7 @@ fi
 
 if [ "$ARCH" == "armv7l" ]; then
     # 32-bit ARM system
-    echo "32系统"
+    echo "32位"
     cd ~
     git clone https://github.com/Jerry3DP/EIS
     cd EIS
@@ -31,7 +31,7 @@ if [ "$ARCH" == "armv7l" ]; then
 	
 elif [ "$ARCH" == "aarch64" ]; then
     # 64-bit ARM system
-    echo "64位系统"
+    echo "64位"
 	cd ~
     git clone https://github.com/Jerry3DP/EIS
     cd EIS
